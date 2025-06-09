@@ -1,6 +1,12 @@
+/* base body: no background by default */
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
+  background: none;
+}
+
+/* booth page background */
+body.booth {
   background-image: url('assets/booth.png');
   background-size: cover;
   background-position: center;
@@ -10,6 +16,19 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+/* landing page background */
+body.landing {
+  background-image: url('assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 
 .landing .container {
   text-align: center;
@@ -62,14 +81,6 @@ body {
   padding: 20px;
   border-radius: 10px;
   display: none;
-}
-
-/* landing page background */
-.landing {
-  background-image: url('/assets/background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .fancy-button-link {
