@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photobooth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="booth-container">
+    <video id="camera" autoplay muted playsinline></video>
+    
+    <div class="strip-slot">
+      <img id="photostrip" />
+    </div>
+
+    <div class="controls">
+      <button id="start-btn">Start</button>
+      <button id="redo-btn" disabled>Redo</button>
+      <button id="save-btn" disabled>Save</button>
+    </div>
+
+    <div id="countdown" class="countdown"></div>
+  </div>
+
+  <canvas id="canvas" style="display:none;"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
