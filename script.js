@@ -74,7 +74,7 @@ function mergePhotos(images) {
     const ctx = canvas.getContext('2d');
 
     const template = new Image();
-    template.src = 'assets/summer_photostrip_design.png';
+    template.src = 'assets/design2.png';
 
     const positions = [55, 330, 600]; // Y-coordinates of the 3 photo slots
     const photoWidth = 296;
