@@ -38,7 +38,7 @@ body.landing {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 8vw; /* responsive horizontal gap */
+  gap: 11.8vw; /* responsive horizontal gap */
   position: relative;
   padding-top: 8vh; /* move row down */
 }

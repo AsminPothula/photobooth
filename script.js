@@ -76,8 +76,8 @@ function mergePhotos(images) {
     const template = new Image();
     template.src = 'assets/design2.png';
 
-    const positions = [55, 330, 600]; // Y-coordinates of the 3 photo slots
-    const photoWidth = 296;
+    const positions = [56, 327, 592]; // Y-coordinates of the 3 photo slots
+    const photoWidth = 305;
     const photoHeight = 220;
     const photoX = 41; // Horizontal offset to center the photo inside the slot
 
